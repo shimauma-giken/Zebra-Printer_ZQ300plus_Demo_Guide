@@ -87,7 +87,7 @@ _color: white
   ![Alt text](image-5.png)
 
 1. [Send Printer]を選択する。
-1. プリンタが再起動する。
+1. プリンタが１～２回再起動する。
 1. 起動したら初期化完了。
 
 </span>
@@ -143,6 +143,7 @@ _color: white
 4. Android端末をZQ3+とペアリングする。
 5. 接続アプリを聞かれた場合はPrinter Setup を選択する。
 6. [使用可能なファイル] > Downloads フォルダ > ZPLファイルを選択 > [プリンタへ送信]
+  ※ Print-Sample_ZQ300p.prnの送信でもデモ印刷が可能。
 7. ラベル印刷
 
 </br>
@@ -160,8 +161,6 @@ _color: white
 ***PDF Direct***
 
 </br>
-
-<img src="image-3.png" width="50%">
 
 
 1. 印刷用PDFファイルをAndroid端末内のDownloads下に保存。
