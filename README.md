@@ -14,7 +14,8 @@ _color: white
 
 ![bg brightness:0.5](image-ZQ310.jpg)
 
-</span>
+
+</br></br>
 
 ---
 
@@ -33,13 +34,15 @@ _color: white
 
 </span>
 
+</br></br>
+
 ---
 
 <span style="font-size: 100%; color: grey;">
 
 ***用意するもの***
 
-- ZQ300+ or ZQ210 or ZQ220+
+- ZQ300+ 
 - USB C ケーブル、 ZQ3+/TC/ET共通
 - ZQ3+ラベル（用黒マーク推奨）
 - TC or ET 端末、 A11 以上
@@ -50,9 +53,48 @@ _color: white
   - ZDriver for Windows
 
 </span>
-</span>
+
+</br></br>
+---
+<span style="font-size: 100%; color: grey;">
+
+*** デモ甩ファイルのダウンロード方法 ***
+
+1. Code ボタンを選択。
+1. Download zipを選択。
+  ![Alt text](image-8.png)
+1. ダウンロードしたzipを解答する。
+1. デモ用のファイルは全てDemo-Materials-ZQ3pフォルダに入っています。
+
 
 ---
+<span style="font-size: 100%; color: grey;">
+
+*** ZQ300+ の初期化***
+
+1. ZQ300とPCをUSBケーブルで接続する。
+1. Zebra Setup for Windows を起動する。
+1. Printers にて、接続中のプリンタを選択する。
+  ![Alt text](image-6.png)
+
+1. [Open Communication with Printer]を選択する。
+1. 下記コマンドを入力する。  
+
+        ~PM[プリンタのシリアル番号],1
+
+    ▼ 例、S/N XXZGJ231409429の場合
+  ![Alt text](image-5.png)
+
+1. プリンタが再起動する。
+1. 起動したら初期化完了。
+
+</span>
+
+
+</br></br>
+
+---
+
 
 <span style="font-size: 100%; color: grey;">
 
@@ -61,14 +103,16 @@ _color: white
 1. 新橋オフィスで作業をすること。
 2. ラベルを入れる。
 3. PCとプリンタを接続し、プリンタを起動する。
-4. ZQ3+ 設定ファイルをZSUを用いてプリンタに送付する。(ZQ3-mark-wf.zpl)
+4. ZQ3+ 設定ファイルをZSUを用いてプリンタに送付する。(ZQ3-mark-wf-Zatar.zpl)
 5. プリンタは即座に再起動。再起動後にNWに接続することを確認。
-6. 再度プリンタがフィード＋再起動するまで待つ。（数分程度）
+6. 再度プリンタがフィード＋再起動するまで待つ。（5分程度）
 7. デモの準備環境
 
-※ Zebra Mirror（簡易EMM）でファーム更新、フォントインストール、設定を実施している。
+※ Zebra Mirror（簡易EMM）でファーム更新、フォントインストール、設定を実施している。10分経過しても処理が完了しない場合は上記初期化手順を実施すること。
 
 </span>
+
+</br></br>
 
 ---
 
@@ -82,19 +126,19 @@ _color: white
 4. キャリブレーション後にプリンタは即座に再起動。
 5. デモの準備環境
 
-※ Zebra Mirror（簡易EMM）でファーム更新、フォントインストール、設定を実施している。
-
 </span>
+
+</br></br>
 
 ---
 
 <span style="font-size: 100%; color: grey;">
 
-***A端末からのデモ印刷***
+***Android端末からのデモ印刷***
 
-1. ZDesigner 3 で任意のラベルを作成。ZPLファイルとして保存。
-2. ZPLファイルをA端末内のDownloads下に保存。
-4. A端末をZQ3+のNFCマークにタッチ。BT Pairが開始。
+1. ZDesigner 3 で任意のラベルを作成。prnファイルとして保存。
+2. ZPLファイルをAndroid端末内のDownloads下に保存。
+4. Android端末をZQ3+とペアリングする。
 5. 接続アプリを聞かれた場合はPrinter Setup を選択する。
 6. [使用可能なファイル] > Downloads フォルダ > ZPLファイルを選択 > [プリンタへ送信]
 7. ラベル印刷
@@ -104,6 +148,8 @@ _color: white
 ※[テンプレートの印刷]によるデモ印刷も可。
 
 </span>
+
+</br></br>
 
 ---
 
@@ -116,8 +162,8 @@ _color: white
 <img src="image-3.png" width="50%">
 
 
-1. 印刷用PDFファイルをA端末内のDownloads下に保存。
-2. A端末上でZebra Setup Utilites を起動
+1. 印刷用PDFファイルをAndroid端末内のDownloads下に保存。
+2. Android端末上でZebra Setup Utilites を起動
 3. [デバイス言語] >[デバイス言語を設定] > [PDF] > [適用]
 4. プリンタが再起動する。
 5. [使用可能なファイル] > Downloads フォルダ > PDFファイルを選択 > [プリンタへ送信]
@@ -128,6 +174,8 @@ _color: white
 [PDF Direct Activation](https://supportcommunity.zebra.com/s/article/PDF-Direct-Activation?language=en_US)
 
 </span>
+
+</br></br>
 
 ---
 
@@ -142,10 +190,12 @@ _color: white
 2. PPME上にプリンタは登録済みなので、エラー通知、Tagグループ化、遠隔操作などのデモをする。  
    ![bg 100% right:40%](image-4.png)
 
-PPME Demo Guide
+PPME Demo Guide  
 <https://techdocs.zebra.com/link-os/latest/demos/ppme/>
 
 </span>
+
+</br></br>
 
 ---
 
@@ -162,16 +212,7 @@ Print-DNA_PDF Direct_紹介_ハンズオン_20221114.pptx
 
 </span>
 
----
-
-<span style="font-size: 100%; color: grey;">
-
-***初期化***
-
-下記ファイルをプリンタに送付すること。
-ZQ3-restore-defaults.zpl
-
-</span>
+</br></br>
 
 ---
 
@@ -180,6 +221,6 @@ ZQ3-restore-defaults.zpl
 _color: white
 -->
 
-# Enjoy your Demo
+### Enjoy your Demo!!
 
 ![bg brightness:0.5](image-ZQ310.jpg)
