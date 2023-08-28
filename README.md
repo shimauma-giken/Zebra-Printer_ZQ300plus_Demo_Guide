@@ -204,12 +204,13 @@ PPME Demo Guide
 
 ***参考資料***
 
-ZebraDesigner3 Essential_紹介資料_20210915.pptx
-ZebraDesigner3 Professional_紹介資料_20220520.pptx
-Print-DNA_PPME_v20230308.pptx
-ZQ2-3-6 Plusまとめ紹介資料 - 20221026.pptx
-Print-DNA_PDF Direct_紹介_ハンズオン_20221114.pptx
-[PDF Direct Activation](https://supportcommunity.zebra.com/s/article/PDF-Direct-Activation?language=en_US)
+    ZebraDesigner3 Essential_紹介資料_20210915.pptx
+    ZebraDesigner3 Professional_紹介資料_20220520.pptx
+    Print-DNA_PPME_v20230308.pptx
+    ZQ2-3-6 Plusまとめ紹介資料 - 20221026.pptx
+    Print-DNA_PDF Direct_紹介_ハンズオン_20221114.pptx
+    [PDF Direct Activation]
+    https://supportcommunity.zebra.com/s/article/PDF-Direct-Activation?language=en_US
 
 </span>
 
