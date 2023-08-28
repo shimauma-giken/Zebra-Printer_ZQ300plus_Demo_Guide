@@ -86,6 +86,7 @@ _color: white
     ▼ 例、S/N XXZGJ231409429の場合
   ![Alt text](image-5.png)
 
+1. [Send Printer]を選択する。
 1. プリンタが再起動する。
 1. 起動したら初期化完了。
 
